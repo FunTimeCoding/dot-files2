@@ -1,0 +1,7 @@
+[user]
+	name = Alexander Reitzel
+	email = funtimecoding@gmail.com
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
