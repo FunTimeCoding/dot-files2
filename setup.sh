@@ -8,3 +8,5 @@ FILES=$(find . -maxdepth 1 -name '.*' -not -path './.git' -and -not -path . | gr
 for FILE in ${FILES}; do
     ln -snf "${PWD}/${FILE}" "${HOME}/${FILE}"
 done
+
+ln -snf "${PWD}/ssh/config" "${HOME}/.ssh/config"
