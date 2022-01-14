@@ -20,3 +20,6 @@ alias gba='git branch --all'
 alias d='docker'
 alias dp='docker ps'
 alias dpa='docker ps --all'
+alias dil='docker image ls'
+
+alias v='nvim'
