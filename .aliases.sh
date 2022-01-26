@@ -16,6 +16,7 @@ alias grv='git remote --verbose'
 alias gb='git branch'
 alias gbd='git branch --delete'
 alias gba='git branch --all'
+alias gbv='git branch -vv'
 
 alias d='docker'
 alias dp='docker ps'
