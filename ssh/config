@@ -2,3 +2,4 @@ Host *
 	UseKeychain yes
 	AddKeysToAgent yes
 	IdentityFile ~/.ssh/id_rsa
+	SetEnv LC_CTYPE=en_US.UTF-8
