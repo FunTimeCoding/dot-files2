@@ -24,3 +24,5 @@ alias dpa='docker ps --all'
 alias dil='docker image ls'
 
 alias v='nvim'
+
+alias k="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"

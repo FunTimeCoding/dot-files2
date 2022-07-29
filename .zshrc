@@ -5,3 +5,5 @@ fi
 if [ -f "${HOME}/.aliases.sh" ]; then
     . "${HOME}/.aliases.sh"
 fi
+
+setopt nobeep
