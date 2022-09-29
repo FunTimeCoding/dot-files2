@@ -7,3 +7,5 @@
 	defaultBranch = main
 [core]
 	excludesfile = ~/.gitignore_global
+[push]
+	autoSetupRemote = true
