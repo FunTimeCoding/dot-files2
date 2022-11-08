@@ -9,11 +9,11 @@ fi
 AUTOLOAD_DIRECTORY="${HOME}/.config/dot-files/autoload"
 
 if [ -d "${AUTOLOAD_DIRECTORY}" ]; then
-    COUNT=$(find "${AUTOLOAD_DIRECTORY}" -type f | wc -l | sed 's/[[:space:]]//g')
+    COUNT=$(find "${AUTOLOAD_DIRECTORY}" | wc -l | sed 's/[[:space:]]//g')
 
     if [ ! "${COUNT}" = '0' ]; then
         for FILE in ${AUTOLOAD_DIRECTORY}/*.sh; do
-            . "$${FILE}"
+            . "${FILE}"
         done
     fi
 fi
