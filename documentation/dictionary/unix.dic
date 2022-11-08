@@ -1,1 +1,15 @@
+# language
+CTYPE
+
+# zsh
+setopt
+nobeep
+
+# git
+excludesfile
+
+# vim
 nvim
+
+# homebrew
+shellenv
