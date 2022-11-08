@@ -28,3 +28,4 @@ alias v='nvim'
 
 alias k="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
 alias ku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
+alias kr="${HOME}/src/virtualization-tools/bin/kubernetes/show-resources.sh"
