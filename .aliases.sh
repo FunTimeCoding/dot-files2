@@ -30,3 +30,7 @@ alias v='nvim'
 alias k="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
 alias ku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
 alias kr="${HOME}/src/virtualization-tools/bin/kubernetes/show-resources.sh"
+alias kp="${HOME}/src/virtualization-tools/bin/kubernetes/show-pods.sh"
+alias kd="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployments.sh"
+alias kdl="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployment-logs.sh"
+alias ks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
