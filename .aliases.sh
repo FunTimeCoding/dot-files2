@@ -23,6 +23,7 @@ alias d='docker'
 alias dp='docker ps'
 alias dpa='docker ps --all'
 alias dil='docker image ls'
+alias dsp='docker system prune --volumes'
 
 alias v='nvim'
 
