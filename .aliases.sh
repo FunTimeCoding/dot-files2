@@ -29,13 +29,17 @@ alias v='nvim'
 
 alias k="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
 alias ku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
+alias kc="${HOME}/src/virtualization-tools/bin/kubernetes/set-context.sh"
 alias kr="${HOME}/src/virtualization-tools/bin/kubernetes/show-resources.sh"
 alias kp="${HOME}/src/virtualization-tools/bin/kubernetes/show-pods.sh"
 alias kd="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployments.sh"
 alias kdl="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployment-logs.sh"
 alias ks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
 
+alias cx="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubectx.sh"
+alias ns="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubens.sh"
+
 alias atl="${HOME}/src/monitoring-tools/bin/prometheus/amtool.sh"
 alias au="${HOME}/src/monitoring-tools/bin/prometheus/amtool/set-cluster.sh"
-alias ata="${HOME}/src/monitoring-tools/bin/prometheus/amtool/show-alerts.sh"
-alias ats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/show-silences.sh"
+alias ata="${HOME}/src/monitoring-tools/bin/prometheus/amtool/alert/list.sh"
+alias ats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/silence/list.sh"
