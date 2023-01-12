@@ -35,6 +35,7 @@ alias kp="${HOME}/src/virtualization-tools/bin/kubernetes/show-pods.sh"
 alias kd="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployments.sh"
 alias kdl="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployment-logs.sh"
 alias ks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
+alias kz="${HOME}/src/virtualization-tools/bin/kubernetes/kustomize.sh"
 
 alias cx="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubectx.sh"
 alias ns="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubens.sh"

@@ -19,3 +19,6 @@ if [ -d "${AUTOLOAD_DIRECTORY}" ]; then
 fi
 
 setopt nobeep
+
+autoload -Uz compinit
+compinit

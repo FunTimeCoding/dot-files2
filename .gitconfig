@@ -1,6 +1,7 @@
 [user]
 	name = Alexander Reitzel
 	email = funtimecoding@gmail.com
+	signingKey = ""
 [pull]
 	ff = only
 [init]
@@ -9,3 +10,9 @@
 	excludesfile = ~/.gitignore_global
 [push]
 	autoSetupRemote = true
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
