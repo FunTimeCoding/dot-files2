@@ -16,3 +16,5 @@
 	gpgSign = false
 [tag]
 	forceSignAnnotated = false
+[url "ssh://git@vc.shiin.org:2222/"]
+	insteadOf = https://vc.shiin.org/

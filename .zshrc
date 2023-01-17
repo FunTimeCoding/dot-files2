@@ -20,5 +20,8 @@ fi
 
 setopt nobeep
 
+export PATH="${PATH}:${HOME}/sdk/go1.19.4/bin"
+export GOPATH="${HOME}/go"
+
 autoload -Uz compinit
 compinit
