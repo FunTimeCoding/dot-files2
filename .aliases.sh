@@ -27,6 +27,9 @@ alias dsp='docker system prune --volumes'
 
 alias v='nvim'
 
+# TODO: brew package exists, what about Debian?
+#alias websocat="${HOME}/src/unix-tools/bin/websocat/websocat.sh"
+
 alias k="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
 alias ku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
 alias kc="${HOME}/src/virtualization-tools/bin/kubernetes/set-context.sh"
