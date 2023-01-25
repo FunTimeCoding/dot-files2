@@ -41,7 +41,8 @@ alias ks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
 alias kz="${HOME}/src/virtualization-tools/bin/kubernetes/kustomize.sh"
 
 alias stern="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/stern.sh"
-alias argo="${HOME}/src/virtualization-tools/bin/kubernetes/argo/argo.sh"
+# TODO: Does not work as well as argocd, segfaults, probably volume or permission issues
+#alias argo="${HOME}/src/virtualization-tools/bin/kubernetes/argo/argo.sh"
 
 alias cx="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubectx.sh"
 alias ns="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubens.sh"
