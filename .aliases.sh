@@ -1,3 +1,8 @@
+alias v='nvim'
+# TODO: brew package exists, what about Debian?
+#alias websocat="${HOME}/src/unix-tools/bin/websocat/websocat.sh"
+
+# Git
 alias g='git'
 alias gl='git pull'
 alias gp='git push'
@@ -19,36 +24,38 @@ alias gbd='git branch --delete'
 alias gba='git branch --all'
 alias gbv='git branch -vv'
 
+# Docker
 alias d='docker'
 alias dp='docker ps'
 alias dpa='docker ps --all'
 alias dil='docker image ls'
 alias dsp='docker system prune --volumes'
 
-alias v='nvim'
+# Kubernetes
+alias dku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
+alias dkc="${HOME}/src/virtualization-tools/bin/kubernetes/set-context.sh"
+alias dkn="${HOME}/src/virtualization-tools/bin/kubernetes/set-namespace.sh"
+alias dkr="${HOME}/src/virtualization-tools/bin/kubernetes/show-resources.sh"
+alias dkp="${HOME}/src/virtualization-tools/bin/kubernetes/show-pods.sh"
+alias dkd="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployments.sh"
+alias dkdl="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployment-logs.sh"
+alias dks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
+alias dkz="${HOME}/src/virtualization-tools/bin/kubernetes/kustomize.sh"
 
-# TODO: brew package exists, what about Debian?
-#alias websocat="${HOME}/src/unix-tools/bin/websocat/websocat.sh"
+## kubectl
+alias k="kubectl"
+alias dk="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
+alias dst="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/stern.sh"
+alias dcx="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubectx.sh"
+alias dns="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubens.sh"
 
-alias k="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
-alias ku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
-alias kc="${HOME}/src/virtualization-tools/bin/kubernetes/set-context.sh"
-alias kn="${HOME}/src/virtualization-tools/bin/kubernetes/set-namespace.sh"
-alias kr="${HOME}/src/virtualization-tools/bin/kubernetes/show-resources.sh"
-alias kp="${HOME}/src/virtualization-tools/bin/kubernetes/show-pods.sh"
-alias kd="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployments.sh"
-alias kdl="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployment-logs.sh"
-alias ks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
-alias kz="${HOME}/src/virtualization-tools/bin/kubernetes/kustomize.sh"
-
-alias stern="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/stern.sh"
+## ArgoCD
+alias a="argocd"
 # TODO: Does not work as well as argocd, segfaults, probably volume or permission issues
-#alias argo="${HOME}/src/virtualization-tools/bin/kubernetes/argo/argo.sh"
+alias da="${HOME}/src/virtualization-tools/bin/kubernetes/argo/argo.sh"
 
-alias cx="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubectx.sh"
-alias ns="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubens.sh"
-
-alias atl="${HOME}/src/monitoring-tools/bin/prometheus/amtool.sh"
-alias au="${HOME}/src/monitoring-tools/bin/prometheus/amtool/set-cluster.sh"
-alias ata="${HOME}/src/monitoring-tools/bin/prometheus/amtool/alert/list.sh"
-alias ats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/silence/list.sh"
+## Prometheus
+alias dam="${HOME}/src/monitoring-tools/bin/prometheus/amtool.sh"
+alias dau="${HOME}/src/monitoring-tools/bin/prometheus/amtool/set-cluster.sh"
+alias data="${HOME}/src/monitoring-tools/bin/prometheus/amtool/alert/list.sh"
+alias dats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/silence/list.sh"
