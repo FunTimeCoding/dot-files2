@@ -25,3 +25,6 @@ export GOPATH="${HOME}/go"
 
 autoload -Uz compinit
 compinit
+
+SAVEHIST=10000
+HISTSIZE=20000
