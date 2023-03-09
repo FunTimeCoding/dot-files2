@@ -1,4 +1,4 @@
-if [ -z "$PS1" ]; then
+if [ -z "${PS1}" ]; then
     return
 fi
 
@@ -28,3 +28,7 @@ compinit
 
 SAVEHIST=10000
 HISTSIZE=20000
+
+if type kubectl > /dev/null; then
+    source <(kubectl completion zsh)
+fi
