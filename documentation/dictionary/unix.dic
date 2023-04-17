@@ -4,6 +4,10 @@ CTYPE
 # zsh
 setopt
 nobeep
+compinit
+SAVEHIST
+HISTSIZE
+DUPS
 
 # git
 excludesfile
@@ -13,3 +17,11 @@ nvim
 
 # homebrew
 shellenv
+
+# kubernetes
+kubens
+kubectx
+krew
+
+# tools
+websocat

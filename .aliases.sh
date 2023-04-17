@@ -59,3 +59,8 @@ alias dam="${HOME}/src/monitoring-tools/bin/prometheus/amtool.sh"
 alias dau="${HOME}/src/monitoring-tools/bin/prometheus/amtool/set-cluster.sh"
 alias data="${HOME}/src/monitoring-tools/bin/prometheus/amtool/alert/list.sh"
 alias dats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/silence/list.sh"
+
+## glab
+alias glc="${HOME}/src/virtualization-tools/bin/gitlab/glab/context.sh"
+alias glpcm="${HOME}/src/virtualization-tools/bin/gitlab/glab/context.sh"
+alias glpfm"${HOME}/src/virtualization-tools/bin/gitlab/glab/context.sh"
