@@ -62,5 +62,5 @@ alias dats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/silence/list.sh"
 
 ## glab
 alias glc="${HOME}/src/virtualization-tools/bin/gitlab/glab/context.sh"
-alias glpcm="${HOME}/src/virtualization-tools/bin/gitlab/glab/context.sh"
-alias glpfm"${HOME}/src/virtualization-tools/bin/gitlab/glab/context.sh"
+alias glpcm="${HOME}/src/virtualization-tools/bin/gitlab/glab/push-create-merge.sh"
+alias glpfm"${HOME}/src/virtualization-tools/bin/gitlab/glab/push-find-merge.sh"
