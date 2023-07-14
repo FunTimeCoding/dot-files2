@@ -21,7 +21,7 @@ fi
 setopt nobeep
 setopt HIST_IGNORE_ALL_DUPS
 
-export PATH="${PATH}:${HOME}/sdk/go1.20.3/bin:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin"
+export PATH="${PATH}:${HOME}/bin:${HOME}/sdk/go1.20.6/bin:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin"
 export GOPATH="${HOME}/go"
 
 autoload -Uz compinit
