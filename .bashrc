@@ -44,3 +44,5 @@ if ! shopt -oq posix; then
 		. /etc/bash_completion
 	fi
 fi
+
+export PATH="$HOME/sdk/go1.21.0/bin:$HOME/go/bin:$PATH"
