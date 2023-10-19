@@ -20,3 +20,5 @@
 	insteadOf = https://vc.shiin.org/
 [url "ssh://git@git.rz.adition.net/"]
 	insteadOf = https://git.rz.adition.net/
+[url "git@git01.int03.theadex.com:"]
+	insteadOf = https://git01.int03.theadex.com/
