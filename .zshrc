@@ -19,9 +19,18 @@ if [ -d "${AUTOLOAD_DIRECTORY}" ]; then
 fi
 
 setopt nobeep
-setopt HIST_IGNORE_ALL_DUPS
+# record timestamp of command in HISTFILE
+setopt extended_history
+# ignore duplicated commands history list
+setopt hist_ignore_dups
+# ignore commands that start with space
+setopt hist_ignore_space
+# show command with history expansion to user before running it
+setopt hist_verify
+# share command history data
+setopt share_history
 
-export PATH="${PATH}:${HOME}/bin:${HOME}/sdk/go1.20.6/bin:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin"
+export PATH="${HOME}/bin:${PATH}:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin"
 export GOPATH="${HOME}/go"
 
 autoload -Uz compinit
@@ -32,4 +41,9 @@ HISTSIZE=20000
 
 if type kubectl > /dev/null; then
     source <(kubectl completion zsh)
+fi
+
+if type zoxide > /dev/null; then
+    eval "$(zoxide init zsh)"
+    alias cd='z'
 fi

@@ -5,4 +5,5 @@ Host *
 	IdentityFile ~/.ssh/id_rsa
 	SendEnv !LANG !LC_*
 	SetEnv LC_CTYPE=en_US.UTF-8
+	HostkeyAlgorithms +ssh-rsa
 	PubkeyAcceptedKeyTypes +ssh-rsa
