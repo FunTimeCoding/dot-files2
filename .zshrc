@@ -44,6 +44,11 @@ if type kubectl > /dev/null; then
 fi
 
 if type zoxide > /dev/null; then
-    eval "$(zoxide init zsh)"
-    alias cd='z'
+    eval "$(zoxide init --cmd cd zsh)"
 fi
+
+if type fzf > /dev/null; then
+    eval "$(fzf --zsh)"
+fi
+
+PS1="%n@%m %2~ %# "
