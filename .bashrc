@@ -47,6 +47,8 @@ if [ "$SYSTEM" = 'Linux' ] || [ "$SYSTEM" = 'Darwin' ]; then
             . /etc/bash_completion
         fi
     fi
+
+    export PATH="$HOME/sdk/go1.21.3/bin:$HOME/go/bin:$PATH"
 else
     SYSTEM=$(uname -o)
 
@@ -100,4 +102,14 @@ else
     fi
 fi
 
-export PATH="$HOME/sdk/go1.21.3/bin:$HOME/go/bin:$PATH"
+AUTOLOAD_DIRECTORY="${HOME}/.config/dot-files/autoload"
+
+if [ -d "${AUTOLOAD_DIRECTORY}" ]; then
+    COUNT=$(find "${AUTOLOAD_DIRECTORY}" | wc -l | sed 's/[[:space:]]//g')
+
+    if [ ! "${COUNT}" = '0' ]; then
+        for FILE in ${AUTOLOAD_DIRECTORY}/*.sh; do
+            . "${FILE}"
+        done
+    fi
+fi
