@@ -8,10 +8,12 @@
 	defaultBranch = main
 [core]
 	excludesfile = ~/.gitignore_global
+	pager = less -FRX
 [push]
 	autoSetupRemote = true
 [gpg]
 	program = gpg
+	format = openpgp
 [commit]
 	gpgSign = false
 [tag]
@@ -22,3 +24,6 @@
 	insteadOf = https://git.rz.adition.net/
 [url "git@git01.int03.theadex.com:"]
 	insteadOf = https://git01.int03.theadex.com/
+[gpg "ssh"]
+	program = ssh-keygen
+	allowedSignersFile = ""

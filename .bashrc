@@ -8,8 +8,8 @@ esac
 HISTCONTROL=ignoreboth
 # append instead of overwrite
 shopt -s histappend
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=20000
+HISTFILESIZE=20000
 # update LINES and COLUMNS after each command
 shopt -s checkwinsize
 # enable "**" glob
