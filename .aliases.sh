@@ -71,3 +71,8 @@ alias glc="${HOME}/src/version-control-tools/bin/gitlab/glab/context.sh"
 alias glpc="${HOME}/src/version-control-tools/bin/gitlab/glab/push-create.sh"
 alias glpcm="${HOME}/src/version-control-tools/bin/gitlab/glab/push-create-merge.sh"
 alias glpfm="${HOME}/src/version-control-tools/bin/gitlab/glab/push-find-merge.sh"
+
+alias pdeb='podman run --rm -it debian:12'
+
+alias bubo='brew update && brew outdated'
+alias bubc='brew upgrade && brew cleanup'
