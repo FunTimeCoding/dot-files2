@@ -76,3 +76,10 @@ alias pdeb='podman run --rm -it debian:12'
 
 alias bubo='brew update && brew outdated'
 alias bubc='brew upgrade && brew cleanup'
+
+alias vgs='vagrant global-status'
+alias vu='vagrant up'
+alias vh='vagrant halt'
+
+alias mu='make update'
+alias mul='make update-library'
