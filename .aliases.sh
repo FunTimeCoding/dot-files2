@@ -83,3 +83,4 @@ alias vh='vagrant halt'
 
 alias mu='make update'
 alias mul='make update-library'
+alias ml='make lint'
