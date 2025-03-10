@@ -29,6 +29,7 @@ alias gb='git branch'
 alias gbd='git branch --delete'
 alias gba='git branch --all'
 alias gbv='git branch -vv'
+alias gsl='git stash list --date local'
 
 # Docker
 alias d='docker'
