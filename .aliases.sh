@@ -83,6 +83,7 @@ alias vu='vagrant up'
 alias vh='vagrant halt'
 alias vd='vagrant destroy'
 alias vs='vagrant status'
+alias vss='vagrant ssh'
 
 alias mu='make update'
 alias mul='make update-library'
