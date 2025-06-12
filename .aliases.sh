@@ -81,6 +81,8 @@ alias bubc='brew upgrade && brew cleanup'
 alias vgs='vagrant global-status'
 alias vu='vagrant up'
 alias vh='vagrant halt'
+alias vd='vagrant destroy'
+alias vs='vagrant status'
 
 alias mu='make update'
 alias mul='make update-library'
