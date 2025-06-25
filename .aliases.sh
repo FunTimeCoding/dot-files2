@@ -93,3 +93,5 @@ alias mlt='make lint && make test'
 alias mr='make run'
 alias md='make deploy'
 alias m='make'
+
+alias pat='gobump patch'
