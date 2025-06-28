@@ -74,6 +74,8 @@ alias glpcm="${HOME}/src/version-control-tools/bin/gitlab/glab/push-create-merge
 alias glpfm="${HOME}/src/version-control-tools/bin/gitlab/glab/push-find-merge.sh"
 
 alias pdeb='podman run --rm -it debian:12'
+alias pps='podman ps'
+alias ppsa='podman ps -a'
 
 alias bubo='brew update && brew outdated'
 alias bubc='brew upgrade && brew cleanup'
