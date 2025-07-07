@@ -1,3 +1,4 @@
 /.idea
 /vendor
 /cmake-build-debug
+/demo
