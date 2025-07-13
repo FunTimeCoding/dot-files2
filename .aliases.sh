@@ -98,3 +98,4 @@ alias md='make deploy'
 alias m='make'
 
 alias pat='gobump patch'
+alias gom='gomonitor'
