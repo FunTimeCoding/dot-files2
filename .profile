@@ -21,3 +21,11 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
 	PATH="$HOME/.local/bin:$PATH"
 fi
+
+if [ -d "/usr/sbin" ] ; then
+	PATH="/usr/sbin:$PATH"
+fi
+
+if [ -d "$HOME/opt/go/bin" ] ; then
+	PATH="$HOME/opt/go/bin:$PATH"
+fi
