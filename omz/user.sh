@@ -25,7 +25,8 @@ setopt hist_verify
 setopt share_history
 
 export PATH="${HOME}/bin:${PATH}:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin"
-export GOPATH="${HOME}/go"
+# TODO: Delete if this is really no longer needed
+#export GOPATH="${HOME}/go"
 
 SAVEHIST=10000
 HISTSIZE=20000
