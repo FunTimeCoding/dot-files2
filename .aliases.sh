@@ -1,12 +1,12 @@
-type gls > /dev/null && alias ls='gls --color=auto'
+type gls &> /dev/null && alias ls='gls --color=auto'
 
 # TODO: brew package exists, what about Debian?
 #alias websocat="${HOME}/src/unix-tools/bin/websocat/websocat.sh"
 
 # Vim
-type nvim > /dev/null && alias v='nvim'
-type nvim > /dev/null && alias vi='nvim'
-type nvim > /dev/null && alias vim='nvim'
+type nvim &> /dev/null && alias v='nvim'
+type nvim &> /dev/null && alias vi='nvim'
+type nvim &> /dev/null && alias vim='nvim'
 
 # Git
 alias g='git'
