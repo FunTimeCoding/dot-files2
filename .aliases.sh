@@ -105,4 +105,6 @@ alias td='task deploy'
 alias t='task'
 
 alias pat='gobump patch'
+alias min='gobump minor'
+alias maj='gobump major'
 alias gom='gomonitor'
