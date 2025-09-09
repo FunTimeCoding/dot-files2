@@ -25,3 +25,5 @@
 [gpg "ssh"]
 	program = ssh-keygen
 	allowedSignersFile = ""
+[remote "origin"]
+	prune = true
