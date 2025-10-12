@@ -3,7 +3,7 @@
 	email = funtimecoding@gmail.com
 	signingKey = ""
 [pull]
-	ff = false
+	rebase = true
 [init]
 	defaultBranch = main
 [core]
