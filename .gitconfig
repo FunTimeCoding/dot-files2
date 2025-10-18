@@ -27,3 +27,6 @@
 	allowedSignersFile = ""
 [remote "origin"]
 	prune = true
+[log]
+	abbrevCommit = true
+	date = format:%Y-%m-%d %H:%M
