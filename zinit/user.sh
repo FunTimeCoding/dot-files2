@@ -12,9 +12,7 @@ if [ -d "${AUTOLOAD_DIRECTORY}" ]; then
     fi
 fi
 
-export PATH="${HOME}/bin:${PATH}:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin"
-# TODO: Delete if really not needed
-#export GOPATH="${HOME}/go"
+export PATH="${HOME}/bin:${PATH}:${HOME}/go/bin:${KREW_ROOT:-$HOME/.krew}/bin:${HOME}/.local/bin"
 
 type fzf > /dev/null && eval "$(fzf --zsh)"
 type zoxide > /dev/null && eval "$(zoxide init --cmd cd zsh)"

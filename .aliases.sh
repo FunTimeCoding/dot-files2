@@ -1,14 +1,9 @@
 type gls &> /dev/null && alias ls='gls --color=auto'
 
-# TODO: brew package exists, what about Debian?
-#alias websocat="${HOME}/src/unix-tools/bin/websocat/websocat.sh"
-
-# Vim
 type nvim &> /dev/null && alias v='nvim'
 type nvim &> /dev/null && alias vi='nvim'
 type nvim &> /dev/null && alias vim='nvim'
 
-# Git
 alias g='git'
 alias gl='git pull'
 alias gp='git push'
@@ -32,14 +27,12 @@ alias gbv='git branch -vv'
 alias gsl='git stash list --date local'
 alias ggs='gogitstatus'
 
-# Docker
 alias d='docker'
 alias dp='docker ps'
 alias dpa='docker ps --all'
 alias dil='docker image ls'
 alias dsp='docker system prune --volumes'
 
-# Kubernetes
 alias dku="${HOME}/src/virtualization-tools/bin/kubernetes/set-cluster.sh"
 alias dkc="${HOME}/src/virtualization-tools/bin/kubernetes/set-context.sh"
 alias dkn="${HOME}/src/virtualization-tools/bin/kubernetes/set-namespace.sh"
@@ -50,33 +43,31 @@ alias dkdl="${HOME}/src/virtualization-tools/bin/kubernetes/show-deployment-logs
 alias dks="${HOME}/src/virtualization-tools/bin/kubernetes/shell.sh"
 alias dkz="${HOME}/src/virtualization-tools/bin/kubernetes/kustomize.sh"
 
-## kubectl
 alias k="kubectl"
 alias dk="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl.sh"
 alias dst="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/stern.sh"
 alias dcx="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubectx.sh"
 alias dns="${HOME}/src/virtualization-tools/bin/kubernetes/kubectl/kubens.sh"
 
-## ArgoCD
 alias a="argocd"
-# TODO: Does not work as well as argocd, segfaults, probably volume or permission issues
-alias da="${HOME}/src/virtualization-tools/bin/kubernetes/argo/argo.sh"
 
-## Prometheus
 alias dam="${HOME}/src/monitoring-tools/bin/prometheus/amtool.sh"
 alias dau="${HOME}/src/monitoring-tools/bin/prometheus/amtool/set-cluster.sh"
 alias data="${HOME}/src/monitoring-tools/bin/prometheus/amtool/alert/list.sh"
 alias dats="${HOME}/src/monitoring-tools/bin/prometheus/amtool/silence/list.sh"
 
-## glab
 alias glc="${HOME}/src/version-control-tools/bin/gitlab/glab/context.sh"
 alias glpc="${HOME}/src/version-control-tools/bin/gitlab/glab/push-create.sh"
 alias glpcm="${HOME}/src/version-control-tools/bin/gitlab/glab/push-create-merge.sh"
 alias glpfm="${HOME}/src/version-control-tools/bin/gitlab/glab/push-find-merge.sh"
 
-alias pdeb='podman run --rm -it debian:12'
 alias pps='podman ps'
 alias ppsa='podman ps -a'
+alias pil='podman image ls'
+alias pir='podman image prune'
+alias pdeb='podman run --rm -it debian:13'
+alias ppy='podman run --rm -it python:3.14-slim'
+alias pgo='podman run --rm -it golang:1.25'
 
 alias bubo='brew update && brew outdated'
 alias bubc='brew upgrade && brew cleanup'
@@ -92,19 +83,12 @@ alias mu='make update'
 alias mul='make update-library'
 alias ml='make lint'
 alias mt='make test'
-alias mlt='make lint && make test'
-alias md='make deploy'
-alias m='make'
 
 alias tu='task update'
 alias tul='task update-library'
 alias tl='task lint'
 alias tt='task test'
-alias tlt='task lint && task test'
 alias td='task deploy'
-alias t='task'
 
 alias pat='gobump patch'
-alias min='gobump minor'
-alias maj='gobump major'
 alias gom='gomonitor'

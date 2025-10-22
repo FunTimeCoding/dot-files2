@@ -58,3 +58,5 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 source $HOME/src/dot-files2/zinit/user.sh
+
+export PATH=$PATH:/Users/shiin/.local/bin

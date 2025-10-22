@@ -87,9 +87,6 @@ else
 
         unset env
 
-        # TODO: Delete if really not needed
-        #export GOPATH="${HOME}/go"
-        #export GOBIN="${GOPATH}/bin"
         export PATH="${PATH}:${HOME}/.local/bin:${GOBIN}:${HOME}/sdk/go1.22.1/bin:${HOME}/opt/apache-maven-3.6.3/bin:${HOME}/AppData/Roaming/npm:/c/Program Files/nodejs:${HOME}/opt/gnuplot-5.2.8/bin"
 
         export SDKMAN_DIR="${HOME}/.sdkman"
